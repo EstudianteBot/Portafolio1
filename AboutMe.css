@@ -1,0 +1,647 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: rgb(60, 2, 103);
+}
+
+body .BarraPrincipal {
+    background-color: mediumpurple;
+    display: grid;
+    font-family: 'Merriweather Sans', sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+}
+
+body .BarraPrincipal .BarraItems {
+    align-items: center;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    justify-content: center;
+    color: black;
+    width: 100%;
+}
+
+body .BarraItems .Page1 a {
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    justify-content: center;
+    padding-inline: 20px;
+    text-decoration: none;
+}
+
+body .BarraItems .Page1 a > span {
+    color: #ffffff;
+    border: 1.5px solid transparent;
+    width: 85%;
+}
+
+body .BarraItems .Page1 a:hover {
+    align-items: start;
+    color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+body .BarraItems .material-symbols-outlined {
+    display: none;
+}
+
+body .Me {
+    align-items: center;
+    color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr;
+    grid-template-rows: 600px;
+    justify-content: center;
+    padding: 24px 144px;
+}
+
+body .Me .Imagen-Card2 {
+    display: none;
+}
+
+body .Me .Imagen-Card3 {
+    display: none;
+}
+
+body .Me .Contenido-Card {
+    align-items: start;
+    background-color: mediumpurple;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 600px;
+    justify-content: left;
+    padding-left: 24px;
+    padding-right: 12px;
+    width: 794px;
+}
+
+body .Me .Contenido-Card > p {
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 0px;
+    padding: 0px 32px;
+    padding-bottom: 48px;
+}
+
+body .Me .Contenido-Card .Titulo-Card {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-top: 32px;
+    padding-left: 32px;
+    width: 100%;
+}
+
+body .Me .Contenido-Card .Titulo-Card > h4 {
+    font-size: 36px;
+    text-align: left;
+    width: 100%;
+}
+
+body .Me .Contenido-Card .Titulo-Card > span {
+    border: 1px solid white;
+    width: 65%;
+}
+
+body .Bar1 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+body .Bar1 > span {
+    border: 1.5px solid white;
+    width: 95%;
+}
+
+body .More {
+    align-items: start;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px;
+    justify-content: center;
+    padding: 0px 600px;
+}
+
+body .More .Card1 {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    justify-content: center;
+    width: 780px;
+    padding-left: 60px;
+    padding-right: 24px;
+}
+
+body .More .Card1 .Titulo-Card1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+body .More .Card1 .Images1 {
+    align-items: start;
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+body .More .Card1 .Images1 .Image-Card1 > img {
+    border: solid indigo 2px;
+    height: 236px;
+    width: 170px;
+}
+
+body .More .Card1 .Images1 .Image-Card2 > img {
+    border: solid indigo 2px;
+    height: 236px;
+    width: 140px;
+}
+
+body .More .Card1 .Images1 .Image-Card3 > img {
+    border: solid indigo 2px;
+    height: 236px;
+    width: 170px;
+}
+
+body .More .Card1 .Images2 {
+    display: none;
+}
+
+body .More .Card2 {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 140px;
+    height: 450px;
+    justify-content: center;
+    width: 780px;
+    padding-left: 60px;
+    padding-right: 24px;
+}
+
+body .More .Card2 .Titulo-Card2 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0px;
+}
+
+body .More .Card2 .Images3 {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 90px 90px;
+    row-gap: 60px;
+    column-gap: 180px;
+    padding-bottom: 24px;
+}
+
+body .More .Card2 .Images3 div {
+    align-content: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+body .Bar2 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 0px;
+}
+
+body .Bar2 > span {
+    border: 1.5px solid white;
+    width: 95%;
+}
+
+body .Footer {
+    background: rebeccapurple;
+    color: #ffffff;
+    display: flex;
+    height: 240px;
+    padding: 20px 200px;
+}
+
+body .Footer .Contenido {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Footer .Contenido > p {
+    text-align: center;
+    font-size: large;
+    padding: 24px 0px;
+    width: 100%;
+}
+
+body .Footer .Contenido .Button {
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+body .Footer .Contenido .Button > h6 {
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0px;
+    padding: 12px 0px;
+}
+
+body .Footer .Contenido .Button > p {
+    background-color: white;
+    border-radius: 30px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > p:hover {
+    background-color: black;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > span {
+    padding-left: 240px;
+}
+
+body .Center {
+    background: rebeccapurple;
+    display: flex;
+}
+
+body .Center .Redes {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Center .Redes > span {
+    padding: 0px 20px;
+    padding-bottom: 48px;
+}
+
+body .Center .Redes img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1366px) {
+    body .Me {
+        grid-template-columns: 300px 340px 560px 20px;
+        grid-template-rows: 500px;
+        padding: 24px 144px;
+    }
+
+    body .Me .Imagen-Card2 {
+        display: unset;
+    }
+
+    body .Me .Imagen-Card1 {
+        display: none;
+    }
+    
+    body .Me .Contenido-Card {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        height: 500px;
+        width: 554px;
+        padding-left: 12px;
+    }
+    
+    body .Me .Contenido-Card > p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    body .Me .Contenido-Card .Titulo-Card > h4 {
+        font-size: 32px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > span {
+        width: 85%;
+    }
+    
+    body .More .Card1 {
+        height: 450px;
+        width: 540px;
+        padding-left: 60px;
+        padding-right: 24px;
+    }
+    
+    body .More .Card1 .Titulo-Card1 {
+        font-size: 32px;
+    }
+    
+    body .More .Card1 .Images1 {
+        gap: 40px;
+    }
+    
+    body .More .Card1 .Images2 {
+        display: none;
+    }
+    
+    body .More .Card2 {
+        column-gap: 140px;
+        height: 450px;
+        width: 540px;
+        padding-left: 60px;
+        padding-right: 24px;
+    }
+    
+    body .More .Card2 .Titulo-Card2 {
+        font-size: 32px;
+    }
+    
+    body .More .Card2 .Images3 {
+        display: grid;
+        grid-template-columns: 90px 90px;
+        grid-template-rows: 90px 90px;
+        row-gap: 60px;
+        column-gap: 180px;
+        padding-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .BarraPrincipal .BarraItems .material-symbols-outlined {
+        display: unset;
+        color: rebeccapurple;
+    }
+
+    body .BarraPrincipal .BarraItems .Page1 {
+        display: none;
+    }
+
+    body .Me {
+        grid-template-columns: 300px 355px;
+        grid-template-rows: 500px;
+        padding: 24px 144px;
+    }
+
+    body .Me .Imagen-Card2 {
+        display: unset;
+    }
+
+    body .Me .Imagen-Card1 {
+        display: none;
+    }
+    
+    body .Me .Contenido-Card {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 390px;
+        width: 636px;
+        padding-left: 12px;
+    }
+    
+    body .Me .Contenido-Card > p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 16px;
+    }
+    
+    body .Me .Contenido-Card .Titulo-Card {
+        padding-top: 12px;
+    }
+    
+    body .Me .Contenido-Card .Titulo-Card > h4 {
+        font-size: 28px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > span {
+        width: 65%;
+    }
+
+    body .More {
+        grid-template-columns: 1fr;
+        grid-template-rows: 420px 420px;
+        justify-content: center;
+        padding: 0px 204px;
+    }
+    
+    body .More .Card1 {
+        height: 420px;
+        width: 540px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    
+    body .More .Card1 .Titulo-Card1 {
+        font-size: 32px;
+    }
+    
+    body .More .Card1 .Images1 {
+        gap: 40px;
+        padding-bottom: 0px;
+    }
+    
+    body .More .Card1 .Images2 {
+        display: none;
+    }
+    
+    body .More .Card2 {
+        column-gap: 140px;
+        height: 420px;
+        width: 540px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    
+    body .More .Card2 .Titulo-Card2 {
+        font-size: 32px;
+    }
+    
+    body .More .Card2 .Images3 {
+        display: grid;
+        grid-template-columns: 90px 90px;
+        grid-template-rows: 90px 90px;
+        row-gap: 60px;
+        column-gap: 180px;
+        padding-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .BarraPrincipal .BarraItems .material-symbols-outlined {
+        display: unset;
+        color: rebeccapurple;
+    }
+
+    body .BarraPrincipal .BarraItems .Page1 {
+        display: none;
+    }
+
+    body .Me {
+        grid-template-columns: 320px;
+        grid-template-rows: 400px;
+        padding: 24px 144px;
+        row-gap: 0px;
+    }
+
+    body .Me .Imagen-Card2 {
+        display: none;
+    }
+
+    body .Me .Imagen-Card3 {
+        display: unset;
+        padding-top: 24px;
+    }
+
+    body .Me .Imagen-Card1 {
+        display: none;
+    }
+    
+    body .Me .Contenido-Card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 500px;
+        width: 302px;
+        padding-left: 6px;
+    }
+    
+    body .Me .Contenido-Card > p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    
+    body .Me .Contenido-Card .Titulo-Card {
+        padding-top: 14px;
+    }
+    
+    body .Me .Contenido-Card .Titulo-Card > h4 {
+        font-size: 26px;
+    }
+
+    body .More {
+        grid-template-columns: 1fr;
+        grid-template-rows: 460px 380px;
+        justify-content: center;
+        padding: 0px 144px;
+    }
+    
+    body .More .Card1 {
+        height: 460px;
+        width: 280px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
+    body .More .Card1 .Titulo-Card1 {
+        font-size: 28px;
+    }
+    
+    body .More .Card1 .Images1 {
+        display: none;
+    }
+    
+    body .More .Card1 .Images2 {
+        align-items: start;
+        display: unset;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    body .More .Card1 .Images2 .Image-Card1 > img {
+        border: solid indigo 2px;
+        height: 141.6px;
+        width: 102px;
+    }
+    
+    body .More .Card1 .Images2 .Image-Card2 > img {
+        border: solid indigo 2px;
+        height: 141.6px;
+        width: 84px;
+    }
+    
+    body .More .Card1 .Images2 .Image-Card3 > img {
+        border: solid indigo 2px;
+        height: 141.6px;
+        width: 102px;
+    }
+    
+    body .More .Card2 {
+        column-gap: 140px;
+        height: 380px;
+        width: 280px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
+    body .More .Card2 .Titulo-Card2 {
+        font-size: 28px;
+    }
+    
+    body .More .Card2 .Images3 {
+        display: grid;
+        grid-template-columns: 60px 60px;
+        grid-template-rows: 60px 60px;
+        row-gap: 60px;
+        column-gap: 60px;
+        padding-bottom: 12px;
+    }
+
+    body .Footer {
+        padding: 12px 12px;
+    }
+
+    body .Footer .Contenido > p {
+        font-size: small;
+        padding: 0px 0px;
+    }
+
+    body .Footer .Contenido .Button > h6 {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 8px 0px;
+    }
+    
+    body .Footer .Contenido .Button > p {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+    
+    body .Footer .Contenido .Button > p:hover {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+}
